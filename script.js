@@ -111,7 +111,7 @@ confirm.addEventListener('click', (e) => {
         carddetailserrormsg.classList.contains('active') && carddetailserrormsg.classList.remove('active')
     }
 
-    if (expyy.value < 22 || expmm.yy > 32) {
+    if (expyy.value < 22 || expyy.value > 32) {
         !expyy.classList.contains('active') && expyy.classList.add('active')
         expyy.focus();
         !carddetailserrormsg2.classList.contains('active') && carddetailserrormsg2.classList.add('active')

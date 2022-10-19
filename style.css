@@ -204,6 +204,7 @@ form {
   font-size: 18px;
   line-height: 23px;
   width: 100%;
+  border: none;
 }
 
 input[type="text"]:focus,
